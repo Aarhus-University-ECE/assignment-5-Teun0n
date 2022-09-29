@@ -5,7 +5,7 @@
 void fiveCircles(circle c[]) {
 /*post: returns an array with five circles - solution to 6.b*/
 }
-
+//KODE2
 int circleIsValid(const circle * c) {
 /*post: answer to exercise 6.c*/
 	return 0
