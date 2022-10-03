@@ -18,7 +18,7 @@ c[i].r = i;
 int circleIsValid(const circle * c) {
 /*post: answer to exercise 6.c*/
 
-if((c*=r)){
+if((c->r)){
 return true;
 }
 else {
@@ -29,8 +29,8 @@ return false;
 
 void translate(circle* c, const point* p) {
 /*ansver to exercise 6.d*/
-c*=p.x = (c*=p.x) + (p*=x);
-c*=p.y = (c*=p.y) + (p*=y);
+c->p.x = (c->p.x) + (p->x);
+c->p.y = (c->p.y) + (p->y);
 
 }
 
