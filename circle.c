@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 
+circle c[5];
 
 void fiveCircles(circle c[]) {
 for(int i = 0; i<5; i++){
@@ -13,7 +14,7 @@ c[i].p.x = i;
 c[i].p.y = i;
 c[i].r = i;
 }
-circle c[5];
+
 
 }
 
