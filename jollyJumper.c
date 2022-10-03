@@ -19,7 +19,8 @@ diffs_found[j]=false; // all numbers after first start as false,because all numb
 }
 
 
-for(int i=0;i<size;i++) //finds differences between succesive numbers. That are then stored in corrected places if differences isn't greater than size of sequence.
+for(int i=0;i<size;i++)
+/*finds differences between succesive numbers.That are then stored in correct places if the difference isn't greater than size of sequence.*/
 {
 int num = 0;
 num = seq[i]-seq[i+1]; //finds difference between succesive numbers in array.
