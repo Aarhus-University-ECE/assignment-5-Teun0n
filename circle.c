@@ -7,7 +7,7 @@
 
 circle c[5];
 
-void fiveCircles(circle c[]) {
+void fiveCircles(circle c[]) { // five circles are defined with values 0 through 4 for p.x, p.y and r.
 for(int i = 0; i<5; i++){
 
 c[i].p.x = i;

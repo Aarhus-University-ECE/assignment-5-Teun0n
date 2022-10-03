@@ -21,19 +21,20 @@ int main(void) {
 	p.y = 2;
 	translate(&c[1], &p);
 	printCircle(c[1]);
-	printf("isValid: %d", circleIsValid(&c[1]));
+	printf("isValid: %d\n", circleIsValid(&c[1]));
 
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
-
-    scanf("%d",&n);
-    assert(n>0);
+    printf("\nenter amount of numbers.\n");
+    scanf("%d",&n); //variable n assigns "n" numbers in array, for jollyjumperfunction.
+    assert(n>0); //
 	/*readin n and check that is is OK*/
 
 	int *numbers = malloc(sizeof(int) * n);
 
 	/*readin the n numbers in the array numbers*/
-    for (int i = 0; i < n; i++)
+	printf("Enter %d numbers\n",n);
+    for (int i = 0; i < n; i++) //n numbers are assigned to array.
 
      scanf("%d",&numbers[i]);
 	if (isJollyJumber(numbers, n)) {
